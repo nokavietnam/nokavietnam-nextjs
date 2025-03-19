@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/noka/workspace-personal/nokavietnam-nextjs/src/app/blog/layout.tsx"],"sourcesContent":["export default function MdxLayout({ children }: { children: React.ReactNode }) {\n  // Create any shared layout or styles here\n  return (\n    <html>\n      <body>\n        <div style={{ color: \"blue\" }}>{children}</div>\n      </body>\n    </html>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAe,SAAS,UAAU,EAAE,QAAQ,EAAiC;IAC3E,0CAA0C;IAC1C,qBACE,8OAAC;kBACC,cAAA,8OAAC;sBACC,cAAA,8OAAC;gBAAI,OAAO;oBAAE,OAAO;gBAAO;0BAAI;;;;;;;;;;;;;;;;AAIxC","debugId":null}}]
+}
