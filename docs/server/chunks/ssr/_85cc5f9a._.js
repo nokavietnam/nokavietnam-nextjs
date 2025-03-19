@@ -31,16 +31,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 async function Page({ params }) {
     const { slug } = await params;
-    const { default: Post } = await __turbopack_context__.f({
-        "@/content/about.mdx": {
-            id: ()=>"[project]/src/content/about.mdx.tsx [app-rsc] (ecmascript, async loader)",
-            module: ()=>__turbopack_context__.r("[project]/src/content/about.mdx.tsx [app-rsc] (ecmascript, async loader)")(__turbopack_context__.i)
-        },
-        "@/content/welcome.mdx": {
-            id: ()=>"[project]/src/content/welcome.mdx.tsx [app-rsc] (ecmascript, async loader)",
-            module: ()=>__turbopack_context__.r("[project]/src/content/welcome.mdx.tsx [app-rsc] (ecmascript, async loader)")(__turbopack_context__.i)
-        }
-    }).import(`@/content/${slug}.mdx`);
+    const { default: Post } = await (()=>{
+        const e = new Error("Cannot find module 'unknown'");
+        e.code = 'MODULE_NOT_FOUND';
+        throw e;
+    })();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Post, {}, void 0, false, {
         fileName: "[project]/src/app/blog/[slug]/page.tsx",
         lineNumber: 9,
